@@ -1,0 +1,16 @@
+﻿<Window x:Class="Purse.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Purse"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel HorizontalAlignment="Center" MinWidth="300"
+                VerticalAlignment="Center">
+        <TextBox Name="inputMoney"/>
+        <Label Name="summLabel" FontSize="50" Content="0" HorizontalAlignment="Center"/>
+        <Button Name="addButton" Content="Добавить" Click="addButton_Click"/>
+        <Button Name="decButton" Content="Снять" Click="decButton_Click"/>
+    </StackPanel>
+</Window>
