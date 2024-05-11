@@ -20,6 +20,8 @@ namespace Purse
     /// </summary>
     public partial class MainWindow : Window
     {
+        //TODO добавить другие объекты реализующие этот интерфейс------------------
+       
         Person person;  
         public MainWindow() //конструктор окна
         {
